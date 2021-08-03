@@ -1,0 +1,4 @@
+To login into the system :-
+
+Username: admin
+Password: admin

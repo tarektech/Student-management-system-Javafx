@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="475.0" prefWidth="643.0" style="-fx-background-color: #091B5F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddStudent">
+   <children>
+      <Pane prefHeight="73.0" prefWidth="643.0" style="-fx-background-color: #58a5ea;">
+         <children>
+            <Label alignment="CENTER" layoutX="23.0" layoutY="19.0" prefHeight="35.0" prefWidth="604.0" text="Enter Student Information">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="status" alignment="CENTER" layoutX="306.0" layoutY="168.0" prefHeight="58.0" prefWidth="307.0" text="Status" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="savebtn" layoutX="322.0" layoutY="360.0" mnemonicParsing="false" onAction="#Saving" prefHeight="49.0" prefWidth="88.0" text="Save" />
+      <Button fx:id="cancelbtn" layoutX="488.0" layoutY="360.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="49.0" prefWidth="88.0" text="Cancel" />
+      <TextField fx:id="txtstuid" layoutX="31.0" layoutY="102.0" prefHeight="31.0" prefWidth="236.0" promptText="Student id" />
+      <TextField fx:id="txtname" layoutX="31.0" layoutY="152.0" prefHeight="31.0" prefWidth="236.0" promptText="Name" />
+      <TextField fx:id="txtsurname" layoutX="31.0" layoutY="204.0" prefHeight="31.0" prefWidth="236.0" promptText="Surname" />
+      <TextField fx:id="txtage" layoutX="31.0" layoutY="255.0" prefHeight="31.0" prefWidth="236.0" promptText="Age" />
+      <TextField fx:id="txtdepart" layoutX="31.0" layoutY="307.0" prefHeight="31.0" prefWidth="236.0" promptText="Department" />
+      <TextField fx:id="txtnum" layoutX="31.0" layoutY="360.0" prefHeight="31.0" prefWidth="236.0" promptText="Phone Number" />
+      <TextField fx:id="txtemail" layoutX="31.0" layoutY="414.0" prefHeight="31.0" prefWidth="236.0" promptText="Email" />
+   </children>
+</AnchorPane>
